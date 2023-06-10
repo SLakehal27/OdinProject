@@ -1,0 +1,179 @@
+
+/* ---- Header  (Section 1) --- */
+/* * {
+    border: 2px solid plum;
+  } */
+
+.header
+{
+    display: flex;
+    justify-content: space-around; 
+    padding: 20px;
+    background-color: #1F2937;
+}
+
+.logo
+{
+    color:white;
+    font-family: 'Ubuntu', sans-serif;
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+}
+
+a
+{
+    text-decoration: none;
+    color:white;
+    font-size: 18px;
+    padding: 10px;
+}
+
+/* ---- Hero  (Section 2) --- */
+.hero-box{
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-around; 
+    flex-direction: row;
+}
+.hero
+{
+    display: flex;
+    background-color: #1F2937;
+    justify-content: space-between;
+    padding: 50px 20px 0px 175px; 
+    font-family: 'Roboto', sans-serif;
+}
+.hero-text{
+    align-self: flex-start;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 8px 
+}
+.hero-image{
+    display: flex;
+    padding-bottom: 50px;
+}
+.gameplay-image{
+    border: 5px solid #F9FAF8;
+    border-radius: 25px;
+}
+.hero-main-text{
+    font-weight: bold;
+    color: #F9FAF8;
+    font-size: 48px;
+}
+
+.hero-secondary-text{
+    font-weight: bold;
+    color: #F9FAF8;
+    font-size: 18px;
+}
+
+.hero-button{
+    background-color: #3882F6;
+    color:white;
+    margin-right: 70%;
+    height: 60px;
+    width: 180px;
+    border-radius: 16px;
+}
+
+
+/* ---- Info-Box1  (Section 3) --- */
+
+.infobox1{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.imagebox1
+{
+    display: flex;
+    justify-content: center;
+    gap:64px;
+}
+
+.slime{
+    border: 5px solid #3882F6;
+    border-radius: 25px;
+}
+
+.imagebox1.Nslime-img
+{
+    display: flex;
+    flex-direction: column;
+}
+
+/* ---- Quote-Box  (Section 4) --- */
+.quotebox
+{
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.quotetext{
+    font-size: 48px;
+    color: #1F2937;
+    font-style: italic;
+}
+
+.nametag{
+    margin-top: -24px;
+    font-size: 24px;
+    font-weight: bold;
+    font-style: normal;
+    text-align: end;
+}
+
+/* ---- Action-Box  (Section 5) ---  */
+
+.actionbox{
+    display: flex;
+    justify-content: center;
+}
+
+.actionarea{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 50%;
+    background-color: #3882F6;
+    border-radius: 25px;
+    margin: 2% 10% 2% 10% ;
+}
+
+.actiontext{
+    font-size: 16px;
+    color: #F9FAF8;
+    
+}
+.actionbutton{
+    color: #3882F6;
+    border: 2px solid #F9FAF8;
+    padding: 2px 20px;
+    border-radius: 25px;
+
+}
+
+.actionbuttonprm{
+    margin: 0;
+    border: 0;
+    padding: ;
+}
+/* ---- Footer  (Section 6) ---  */
+.footerbox
+{
+    display: flex;
+    justify-content: center;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    font-size: 16px;
+}
